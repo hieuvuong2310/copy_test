@@ -1,0 +1,30 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1740094711715,129,1 Register Request,201,Created,User 1 Thread 1-1,text,true,,300,267,1,1,http://localhost:5001/authentication/register,123,0,27
+1740094712383,30,2 Failed Register Request,400,Bad Request,User 1 Thread 1-1,text,true,,336,266,1,1,http://localhost:5001/authentication/register,30,0,0
+1740094712918,28,3 Failed Login Request,400,Bad Request,User 1 Thread 1-1,text,true,,341,240,1,1,http://localhost:5001/authentication/login,28,0,0
+1740094713449,30,4 Login Request,201,Created,User 1 Thread 1-1,text,true,,513,239,1,1,http://localhost:5001/authentication/login,30,0,0
+1740094713986,56,5 Create Google Stock Request,200,OK,User 1 Thread 1-1,text,true,,330,422,1,1,http://localhost:5001/setup/createStock,56,0,0
+1740094714545,67,6 Add Google Stock Request,200,OK,User 1 Thread 1-1,text,true,,295,458,1,1,http://localhost:5001/setup/addStockToUser,67,0,0
+1740094715114,49,7 Create Apple Stock Request,200,OK,User 1 Thread 1-1,text,true,,330,421,1,1,http://localhost:5001/setup/createStock,49,0,0
+1740094715665,61,8 Add Apple Stock Request,200,OK,User 1 Thread 1-1,text,true,,295,458,1,1,http://localhost:5001/setup/addStockToUser,61,0,0
+1740094716229,35,9 Get Stock Portfolio Request,200,OK,User 1 Thread 1-1,text,true,,695,390,1,1,http://localhost:5001/transaction/getStockPortfolio,35,0,0
+1740094716771,109,10 Place Stock Order Request,200,OK,User 1 Thread 1-1,text,true,,647,512,1,1,http://localhost:5001/engine/placeStockOrder,109,0,0
+1740094717383,95,11 Place Stock Order Request,200,OK,User 1 Thread 1-1,text,true,,647,512,1,1,http://localhost:5001/engine/placeStockOrder,94,0,0
+1740094717980,29,12 Get Stock Portfolio Request,200,OK,User 1 Thread 1-1,text,true,,293,390,1,1,http://localhost:5001/transaction/getStockPortfolio,29,0,0
+1740094718512,32,13 Get Stock Transactions Request,200,OK,User 1 Thread 1-1,text,true,,1004,393,1,1,http://localhost:5001/transaction/getStockTransactions,31,0,0
+1740094718583,3,Debug Sampler,200,OK,User 1 Thread 1-1,text,true,,1286,0,1,1,null,0,0,0
+1740094719087,45,14 Register Request,201,Created,User 1 Thread 1-1,text,true,,300,271,1,1,http://localhost:5001/authentication/register,45,0,0
+1740094719634,27,15 Login Request,201,Created,User 1 Thread 1-1,text,true,,513,241,1,1,http://localhost:5001/authentication/login,27,0,0
+1740094720164,57,16 Get Stock Prices Request,200,OK,User 1 Thread 1-1,text,true,,472,387,1,1,http://localhost:5001/transaction/getStockPrices,57,0,0
+1740094720725,47,17 Add Money Request,200,OK,User 1 Thread 1-1,text,true,,295,426,1,1,http://localhost:5001/transaction/addMoneyToWallet,47,0,0
+1740094721275,26,18 Get Wallet Balance Request,200,OK,User 1 Thread 1-1,text,true,,308,389,1,1,http://localhost:5001/transaction/getWalletBalance,25,0,0
+1740094721803,245,19 Place Stock Order Request,200,OK,User 1 Thread 1-1,text,true,,678,496,1,1,http://localhost:5001/engine/placeStockOrder,245,0,0
+1740094722550,26,20 Get Stock Transactions Request,200,OK,User 1 Thread 1-1,text,true,,680,393,1,1,http://localhost:5001/transaction/getStockTransactions,26,0,0
+1740094723079,37,21 Get Wallet Transactions Request,200,OK,User 1 Thread 1-1,text,true,,584,394,1,1,http://localhost:5001/transaction/getWalletTransactions,37,0,0
+1740094723619,24,22 Get Wallet Balance Request,200,OK,User 1 Thread 1-1,text,true,,307,389,1,1,http://localhost:5001/transaction/getWalletBalance,24,0,0
+1740094724146,24,23 Get Stock Portfolio Request,200,OK,User 1 Thread 1-1,text,true,,493,390,1,1,http://localhost:5001/transaction/getStockPortfolio,24,0,0
+1740094724172,1,Debug Sampler,200,OK,User 1 Thread 1-1,text,true,,1618,0,1,1,null,0,0,0
+1740094724675,48,24 Cancel Stock Order Request,200,OK,User 1 Thread 1-1,text,true,,324,465,1,1,http://localhost:5001/engine/cancelStockTransaction,48,0,0
+1740094725225,22,25 Get Stock Transactions Request,200,OK,User 1 Thread 1-1,text,true,,1002,393,1,1,http://localhost:5001/transaction/getStockTransactions,22,0,0
+1740094725749,9,26 Invalid Token,401,Unauthorized,User 1 Thread 1-1,text,true,,320,222,1,1,http://localhost:5001/transaction/getStockPortfolio,9,0,0
+1740094726260,12,27 Invalid Payload Example,400,Bad Request,User 1 Thread 1-1,text,true,,345,427,1,1,http://localhost:5001/transaction/addMoneyToWallet,11,0,0
